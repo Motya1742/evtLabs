@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pirata One';
+    src: url('fonts/PirataOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Цвет фона */
+}
+
+.container {
+    width: 1440px; /* Ширина контента */
+    margin: 0 auto; /* Центрирование */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+ul a {
+    color: black; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+img {
+    width: 200px; /* Фиксированная ширина */
+    height: 150px; /* Фиксированная высота */
+    object-fit: cover; /* Обрезка по центру для сохранения пропорций */
+    margin-right: 10px;
+    border-radius: 10px; /* Закругленные края */
+}
+
+.centered {
+    text-align: center; /* Выравнивание по центру */
+    font-family: 'Pirata One'; /* Шрифт для первого фильма */
+}
+
+.justified {
+    text-align: justify; /* Выравнивание по ширине */
+    font-family: 'Roboto'; /* Шрифт для второго фильма */
+}
+
+.right-aligned {
+    text-align: right; /* Выравнивание вправо */
+    font-family: 'Lobster'; /* Шрифт для третьего фильма */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+strong {
+    font-weight: bold; /* Жирный текст */
+}
+
+b {
+    font-weight: bold; /* Жирный текст */
+}
